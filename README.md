@@ -1,30 +1,24 @@
 ### Aero Greenfield
 
-TIM student at UC Santa Cruz, class of 2028. I'm looking for summer 2027 internships
-in backend, data, or analytics engineering.
+Technology & Information Management student at UC Santa Cruz, graduating June 2028.
+I'm looking for a Summer 2027 internship in business systems, data or operations
+analytics, or supply chain.
 
-I'm the sole engineer on [Botaniks](https://github.com/aero-greenfield/botaniks-inventory-system),
-a production inventory and batch-production tracker for a small matcha wholesaler. It
-replaced manual spreadsheet tracking of 70+ raw materials and 45 products for a 6-person
-team, and has been running in production since June 2026.
+I started as an Operations Assistant at Botaniks Herbs & Tea, a Santa Cruz matcha
+wholesaler, then proposed and built their [inventory system](https://github.com/aero-greenfield/botaniks-inventory-system)
+as the only engineer. It replaced manual tracking of 70+ raw materials and 45 products
+for a 6-person team and has been used daily since June 2026.
 
-Most of what I actually do on it is find and fix bugs that only show up under real use:
-a production race condition between two Gunicorn workers that could double-deduct stock,
-a float-rounding bug that wrongly rejected a 176 lb order against exactly 176 lb of
-stock, and a handful of N+1 query patterns. All of it is written up in the repo's
-[engineering decisions doc](https://github.com/aero-greenfield/botaniks-inventory-system/blob/main/docs/engineering-decisions.md),
-if you want the reasoning and not just the result.
+- Saves the team 5 to 6 hours a week
+- Zero stockout-driven batch cancellations since launch (before, one every 1 to 2 months)
+- FIFO lot tracking, batch costing, and Excel exports for management
+- 211 automated tests and nightly verified backups
 
-**Stack I work in:**
+If you want the technical side, the repo's
+[engineering decisions doc](https://github.com/aero-greenfield/botaniks-inventory-system/blob/main/docs/engineering-decisions.md)
+covers a race condition that could double-deduct stock, a rounding bug that rejected a
+valid order, and how the database is designed.
 
-![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-black?logo=flask&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-07405E?logo=sqlite&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
+**Tools:** SQL, Python, pandas, Excel, PostgreSQL, Flask, Docker, Git, pytest
 
-**Currently:** Junior at UCSC, studying Technology & Information Management.
-Coursework in Python, C, RISC-V assembly, discrete math, and linear algebra.
-
-Reach me at aeroTNG@gmail.com or Linkedin: https://www.linkedin.com/in/aero-greenfield-7226a137a/
+Reach me at aesgreen@ucsc.edu or on [LinkedIn](https://www.linkedin.com/in/aero-greenfield-7226a137a/).

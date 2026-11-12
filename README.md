@@ -9,7 +9,7 @@ wholesaler, then proposed and built their [inventory system](https://github.com/
 as the only engineer. It replaced manual tracking of 70+ raw materials and 45 products
 for a 6-person team and has been used daily since June 2026.
 
-- Saves the team 5 to 6 hours a week
+- Saves the team 3 to 4 hours a week
 - Zero stockout-driven batch cancellations since launch (before, one every 1 to 2 months)
 - FIFO lot tracking, batch costing, and Excel exports for management
 - 211 automated tests and nightly verified backups
